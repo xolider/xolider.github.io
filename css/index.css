@@ -1,0 +1,33 @@
+body
+{
+  background: url('../img/back.jpg') fixed no-repeat;
+  background-size: 100% auto;
+}
+
+h1
+{
+  font-weight: lighter;
+  text-align: center;
+  font-size: 6em;
+}
+
+.main
+{
+  margin-top: 15em;
+}
+
+.intro
+{
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.intro-div
+{
+  margin-top: 9em;
+}
+
+.icon
+{
+  margin-top: 24em;
+}
