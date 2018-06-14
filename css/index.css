@@ -1,33 +1,11 @@
-body
+.sd
 {
-  background: url('../img/back.jpg') fixed no-repeat;
-  background-size: 100% auto;
+  border: 1px solid black;
 }
 
-h1
-{
-  font-weight: lighter;
-  text-align: center;
-  font-size: 6em;
-}
-
-.main
-{
-  margin-top: 15em;
-}
-
-.intro
+.align-center
 {
   text-align: center;
-  font-size: 1.3em;
-}
-
-.intro-div
-{
-  margin-top: 9em;
-}
-
-.icon
-{
-  margin-top: 24em;
+  position: relative;
+  right: 150px;
 }

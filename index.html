@@ -3,36 +3,35 @@
 	<head>
 		<title>Xolider</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+		<link rel="stylesheet" href="css/materialize.min.css">
 		<link rel="stylesheet" href="css/index.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</head>
 
 	<body>
 
-		<div class="container main">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-12">
-					<h1 class="grey-text text-darken-2">Xolider</h1>
+				<div class="col m3">
+					<ul id="slide-out" class="sidenav sidenav-fixed sd">
+						<li><a href="#" class="waves-effect"><i class="material-icons">account_circle</i>Présentation</a></li>
+					</ul>
+					<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 				</div>
-			</div>
-			<div class="row intro-div">
-				<div class="col-lg-12">
-					<p class="grey-text intro">
-						Bonjour ! Mon nom est Clément Vicart. Je suis dévelopeur web (HTML, CSS, PHP, MySQL...)<br/>
-						Je développe également des applications Java et Android.
-					</br/>
-					</p>
-				</div>
-			</div>
-			<div class="row icon">
-				<div class="col-lg-12">
-					<center><a class="btn-floating blue pulse"><i class="glyphicon glyphicon-chevron-down"></i></a></center>
+				<div class="col m9">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col m12">
+								<h1 class="align-center">Xolider</h1>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/materialize.min.js"></script>
+		<script src="js/index.js"></script>
 	</body>
 </html>
