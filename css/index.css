@@ -1,11 +1,50 @@
-.sd
+h1
 {
-  border: 1px solid black;
+  font-weight: lighter;
 }
 
-.align-center
+@media screen and (min-width: 993px)
 {
-  text-align: center;
-  position: relative;
-  right: 150px;
+  main
+  {
+    padding-left: 300px;
+  }
+
+  body
+  {
+    background: url('../img/back.png') no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+    background-position-x: 150px;
+  }
+}
+
+@media screen and (max-width: 992px)
+{
+  main
+  {
+    padding-left: 0px;
+  }
+
+  body
+  {
+    background-position: top;
+    background-position-x: 0px;
+  }
+}
+
+@media screen and (max-width: 1288px)
+{
+  body
+  {
+    background: url('../img/back_2.png') no-repeat;
+    background-size: 100% auto;
+  }
+}
+
+.adsbygoogle
+{
+  border: 1px solid black;
+  float: right;
+  margin-right: 130px;
 }
